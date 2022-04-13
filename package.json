@@ -1,0 +1,17 @@
+{
+    "name": "puppeteer-typescript-vscode-project-template",
+    "version": "1.0.0",
+    "description": "a crawler project template using typescript language, puppeteer library and visual studio code as IDE",
+    "scripts": {
+        "start": "node dist/main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "puppeteer": "^13.5.2"
+    },
+    "devDependencies": {
+        "@types/puppeteer": "^5.4.5",
+        "@types/node": "^17.0.23",
+        "typescript": "^4.6.3"
+    }
+}
